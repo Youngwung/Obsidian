@@ -1,0 +1,9 @@
+/* h1_hr_blue.css */
+
+.markdown-preview-section h1 {
+	color: #1cddda; /* 모든 H1 제목 텍스트를 파란색으로 변경 */
+}
+
+.markdown-preview-view hr {
+	color: #1cddda; /* 모든 구분선 색상을 파란색으로 변경 */
+}
