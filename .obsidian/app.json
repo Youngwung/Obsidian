@@ -4,5 +4,7 @@
   "tabSize": 2,
   "useTab": false,
   "showIndentGuide": true,
-  "smartIndentList": true
+  "smartIndentList": true,
+  "showLineNumber": true,
+  "focusNewTab": true
 }
