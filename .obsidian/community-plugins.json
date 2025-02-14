@@ -4,5 +4,6 @@
   "templater-obsidian",
   "obsidian-git",
   "obsidian-excalidraw-plugin",
-  "quickadd"
+  "quickadd",
+  "obsidian-imgur-plugin"
 ]
