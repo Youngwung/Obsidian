@@ -7,18 +7,12 @@ tags:
   - 정보처리기사
   - 정보처리기사/소프트웨어설계
   - 지식
-aliases: [동의어, 약어]
+  - 핵심
+aliases:
+  - 동의어
+  - 약어
 priority: 4
 ---
-# 수정 이력
-```dataview
-table update.date as "수정 날짜", update.content as "수정 내용"
-where file.name = this.file.name
-flatten updates as update 
-where updates
-sort update.date desc
-```
-
 # 개념 정의 
 <!-- 핵심 개념을 간단명료하게 정의합니다 --> 
 # 핵심 요약 
@@ -31,7 +25,7 @@ sort update.date desc
 <!-- 연관된 다른 개념들을 링크하고 관계를 설명합니다 --> 
 - [[사물(Things)]]: 관계 설명
 - [[관계(relationships)]]: 관계 설명 
-- [[다이어그램(Diagram)]]: 관계 설명
+- [[UML 다이어그램(Diagram)]]: 관계 설명
 # 실제 적용 
 - <!-- 실무/실생활에서의 활용 예시를 작성합니다 --> 
 # 주의사항 

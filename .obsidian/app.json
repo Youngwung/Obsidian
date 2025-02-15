@@ -1,10 +1,11 @@
 {
   "promptDelete": false,
-  "livePreview": false,
+  "livePreview": true,
   "tabSize": 2,
   "useTab": false,
   "showIndentGuide": true,
   "smartIndentList": true,
   "showLineNumber": true,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "defaultViewMode": "preview"
 }
