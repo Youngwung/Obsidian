@@ -1,9 +1,11 @@
 [
+  "homepage",
   "dataview",
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
   "quickadd",
   "obsidian-imgur-plugin",
   "table-editor-obsidian",
-  "obsidian-hover-editor"
+  "obsidian-hover-editor",
+  "obsidian-footnotes"
 ]
