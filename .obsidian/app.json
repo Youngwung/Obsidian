@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "livePreview": true,
+  "livePreview": false,
   "tabSize": 2,
   "useTab": false,
   "showIndentGuide": true,
