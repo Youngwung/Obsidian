@@ -1,17 +1,13 @@
 ---
-created: 25-02-14
-updates:
-  - date: 25-02-14
-    content: 노트 생성
 tags:
   - 정보처리기사
   - 정보처리기사/소프트웨어설계
-  - 지식
   - 핵심
 aliases:
   - 동의어
   - 약어
 priority: 3
+note:
 ---
 # 개념 정의 
 <!-- 핵심 개념을 간단명료하게 정의합니다 --> 
@@ -23,6 +19,23 @@ priority: 3
 <!-- 개념의 특징적인 부분들을 정리합니다 --> 
 # 관련 개념 
 <!-- 연관된 다른 개념들을 링크하고 관계를 설명합니다 --> 
+```dataviewjs
+// 현재 노트의 전체 경로 (예: "정보처리기사/1. 소프트웨어 설계/지식노트.md")를 가져옵니다.
+const currentPath = dv.current().file.path;
+const topFolder = currentPath.split('/')[0];
+const matchingPages = dv.pages().where(p =>
+  p.file.tags &&
+  p.file.tags.some(tag => tag.replace("#", "").toLowerCase() === "지식관리") &&
+  p.file.name.includes(topFolder)
+);
+
+// 결과가 있을 경우 링크 목록으로 출력, 없으면 안내 메시지 출력
+if (matchingPages.length) {
+  dv.list(matchingPages.file.link);
+} else {
+  dv.paragraph("조건에 맞는 파일을 찾을 수 없습니다.");
+}
+```
 - [[User Stroy]]
 - [[Release]]
 - [[Spike]]
