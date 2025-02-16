@@ -9,7 +9,7 @@
   "refreshEnabled": true,
   "refreshInterval": 2500,
   "defaultDateFormat": "yy-MM-dd",
-  "defaultDateTimeFormat": "yy-MM-dd: hh:mm",
+  "defaultDateTimeFormat": "yy-MM-dd: HH:mm",
   "maxRecursiveRenderDepth": 4,
   "tableIdColumnName": "File",
   "tableGroupColumnName": "Group",
